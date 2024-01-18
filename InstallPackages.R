@@ -25,7 +25,6 @@ install.packages('readr')
 install.packages('ggplot2')
 install.packages('tibble')
 install.packages('tidyverse')
-install.packages('colortools')
 install.packages('tidyr')
 install.packages('magrittr')
 install.packages('gtools')
@@ -41,6 +40,12 @@ install.packages('RColorBrewer')
 
 install.packages('colortools')
 install.packages('colorRamps')
+
+
+#install colortools (deprecated in R)
+packageurl <- "https://cran.r-project.org/src/contrib/Archive/colortools/colortools_0.1.5.tar.gz"
+install.packages(packageurl, repos=NULL, type="source")
+
 
 
 
