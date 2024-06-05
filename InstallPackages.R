@@ -49,6 +49,7 @@ install.packages(packageurl, repos=NULL, type="source")
 
 
 
+
 #ComplexHeatmap
 if (!requireNamespace("BiocManager", quietly = TRUE))
   install.packages("BiocManager")
@@ -58,32 +59,22 @@ BiocManager::install("ComplexHeatmap")
 
 # BSgenome.Hsapiens.UCSC.hg18
 
-if (!requireNamespace("BiocManager", quietly = TRUE))
-  install.packages("BiocManager")
-
 BiocManager::install("BSgenome.Hsapiens.UCSC.hg18")
 
 
 # VanillaICE
-if (!requireNamespace("BiocManager", quietly = TRUE))
-  install.packages("BiocManager")
 
-BiocManager::install("VanillaICE")
+BiocManager::install("VanillaICE", force=TRUE)
 
 
 
 
 #oligoClasses
-if (!requireNamespace("BiocManager", quietly = TRUE))
-  install.packages("BiocManager")
 
 BiocManager::install("oligoClasses")
 
 
 
 #fgsea
-
-if (!requireNamespace("BiocManager", quietly = TRUE))
-  install.packages("BiocManager")
 
 BiocManager::install("fgsea")
